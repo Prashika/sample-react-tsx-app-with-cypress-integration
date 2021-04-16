@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+## Steps to run application, run tests and check code-coverage report
+
+1. yarn install (To install all node modules)
+2. yarn start (To run application)
+3. To run test:
+    yarn run cypress open (Cypress test runner window will be opened. There select spec.js file to run tests.)
+4. Check Coverage Report in Project Directory:
+    coverage/lcov-report/index.html
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -44,12 +53,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-## Steps to run application, run tests and check code-coverage report:
-
-1. yarn install (To install all node modules)
-2. yarn start (To run application)
-3. To run test:
-    yarn run cypress open (Cypress test runner window will be opened. There select spec.js file to run tests.)
-4. Check Coverage Report in Project Directory:
-    coverage/lcov-report/index.html
